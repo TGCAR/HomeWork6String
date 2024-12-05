@@ -14,10 +14,11 @@ public class Main {
         System.out.println();
         System.out.println("Task 3");
         System.out.println();
-        firstName = firstName.replace("Ivan", "Семен");
-        middleName = middleName.replace("Ivanovich", "Семенович");
-        lastName = lastName.replace("Ivanov", "Иванов");
+
+        firstName = "Семён";
+        middleName = "Семёнович";
+        lastName = "Иванов";
         fullName = lastName + " " + firstName + " " + middleName;
-        System.out.println("Данные Ф.И.О. сотрудника - " + fullName);
+        System.out.println("Данные Ф.И.О. сотрудника - " + fullName.replace('ё', 'е'));
     }
 }
